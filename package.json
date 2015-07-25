@@ -1,0 +1,33 @@
+{
+  "name": "node-freq-analyzer",
+  "version": "0.0.0",
+  "description": "A javascript library to analyze frequencies.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfarid27/node-freq-analyzer.git"
+  },
+  "author": "J. Farid",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/jfarid27/node-freq-analyzer/issues"
+  },
+  "homepage": "https://github.com/jfarid27/node-freq-analyzer",
+  "dependencies": {
+    "amdefine": "^1.0.0",
+    "requirejs": "^2.1.18"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.5",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-requirejs": "^0.2.2",
+    "mocha": "^2.2.5"
+  }
+}
